@@ -1,11 +1,29 @@
-/* font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
 
+body {
 
-
-body{
-    font-family: 'Roboto', sans-serif;
-color: red;}
-.x{
-    color: red;
+    font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
+.logo{
+    text-decoration: none;
+
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-size: 1.63rem;
+    font-weight: 700;
+}
+.logo1{
+    color: #2196F3
+    ;
+}
+.font-navy{
+    font-size: 0.87rem;
+    color:#212121;
+    font-weight: 500;
+}
+.font-navy:hover{
+    font-size: 0.87rem;
+    color:#2196F3;
+    font-weight: 500;
+}
+
