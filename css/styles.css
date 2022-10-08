@@ -13,7 +13,7 @@ color: #757575;
     font-family: 'Raleway', sans-serif;
     
     color: #000000;
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -22,7 +22,7 @@ color: #757575;
 .logo1{
     font-family: 'Raleway', sans-serif;
     color: #2196F3    ;
-    font-style: normal;
+    
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -30,8 +30,11 @@ line-height: 1.19;
 }
 .font-navy{
 
+    text-decoration: none;
+   
+
     color:#212121;
-    font-style: normal;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -39,8 +42,10 @@ line-height: 1.19;
 }
 .font-navy:hover{
     
+    text-decoration: none;
+    
     color:#2196F3;
-    font-style: normal;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -50,7 +55,7 @@ line-height: 1.19;
     text-decoration: none;
     
     color: #757575;
-    font-style: normal;
+    
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -61,7 +66,18 @@ letter-spacing: 0.02em;
     text-decoration: none;
     
     color: #2196F3;
-    font-style: normal;
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+}
+.contact:focus{
+    text-decoration: none;
+    
+    color: #2196F3;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -69,17 +85,21 @@ letter-spacing: 0.02em;
 
 }
 .h1{
-    font-family: 'Raleway', sans-serif;
-    background-color:#2F303A ;
-    color:#FFFFFF ;
-    font-size: 2.75rem;
-    font-weight: 900;
-    line-height: 3.75rem;
+
+background-color:#2F303A ;
+
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
 
 }
 .button1st{
 font-family:inherit;
-font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
@@ -89,12 +109,12 @@ text-align: center;
 letter-spacing: 0.06em;
 background-color: #2196F3;
     color :#FFFFFF;
+    cursor: pointer;
    
     
 }
 .adres{
-    font-style: normal;
-    font-weight: 400;
+
     font-size: 14px;
     line-height: 1.71; 
     letter-spacing: 0.03em;
@@ -102,7 +122,6 @@ background-color: #2196F3;
 .tittle1{
 
 color: #212121;
-font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -112,8 +131,8 @@ text-transform: uppercase;
 .text1{
 
 
-    font-style: normal;
-    font-weight: 400;
+
+    
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -123,7 +142,7 @@ color: #757575;
 
 }
 .tittle2{
-    font-style: normal;
+
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
@@ -134,7 +153,7 @@ color: #212121;
 
 }
 .crew-name{
-    font-style: normal;
+
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -143,8 +162,8 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 .crew-job-posiion{
-    font-style: normal;
-font-weight: 400;
+
+
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
@@ -152,20 +171,23 @@ letter-spacing: 0.03em;
 
 color: #757575;
 }
-.filtr-portfolio{
-    font-family: 'Roboto';
-font-style: normal;
+.button-filtr-portfolio{
+    font-family: inherit;
+
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+cursor: pointer;
+border-radius: 4px;
+background: #F5F4FA;
+
 
 }
-.filtr-portfolio:hover{
-    font-family: 'Roboto';
-    font-style: normal;
+.button-filtr-portfolio:hover{
+    font-family:inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -173,6 +195,40 @@ color: #212121;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     background-color:#2196F3 ;           
+}
+.button-filtr-portfolio:focus{
+    font-family:inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background-color:#2196F3 ;           
+}
+.style-list{
+    list-style-type: none;
+
+}
+.portfolio-example{
+
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.portfolio-category{
+
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+
+color: #757575;
+    
+
+
+
 }
 
 
