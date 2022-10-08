@@ -4,6 +4,7 @@ body {
     /* font-family: 'Raleway', sans-serif; */
 font-family: 'Roboto', sans-serif;
 color: #757575;
+
 }
 .logo{
     text-decoration: none;
@@ -12,36 +13,59 @@ color: #757575;
     font-family: 'Raleway', sans-serif;
     
     color: #000000;
-    font-size: 1.63rem;
+    font-style: normal;
     font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    
 }
 .logo1{
     font-family: 'Raleway', sans-serif;
-    color: #2196F3
-    ;
+    color: #2196F3    ;
+    font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+
 }
 .font-navy{
-    font-size: 0.87rem;
+
     color:#212121;
+    font-style: normal;
     font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .font-navy:hover{
-    font-size: 0.87rem;
+    
     color:#2196F3;
+    font-style: normal;
     font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .contact{
     text-decoration: none;
-    font-size: 0.87rem;
+    
     color: #757575;
-    font-weight: 500;
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
 
 }
 .contact:hover{
     text-decoration: none;
-    font-size: 0.87rem;
+    
     color: #2196F3;
+    font-style: normal;
     font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 
 }
 .h1{
@@ -54,47 +78,103 @@ color: #757575;
 
 }
 .button1st{
-    font-family: 'Roboto';
-    font-style: normal;
-
-        font-weight: 700;
-    
-
-    font-size: 1rem;
-    background-color: #2196F3;
+font-family:inherit;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+background-color: #2196F3;
     color :#FFFFFF;
-    height: 3.12rem;
-    width: 12.5rem;
+   
     
 }
 .adres{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 0.87rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71; 
+    letter-spacing: 0.03em;
 }
 .tittle1{
 
 color: #212121;
+font-style: normal;
 font-weight: 700;
-font-size: 0,87rem;
-line-height: 16px;
+font-size: 14px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .text1{
 
 
-font-weight: 400;
-font-size: 0.87rem;
-line-height: 24px;
-letter-spacing: 0.03em;
-
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 color: #757575;
 
     
 
 }
+.tittle2{
+    font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+.crew-name{
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.crew-job-posiion{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+.filtr-portfolio{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+
+}
+.filtr-portfolio:hover{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background-color:#2196F3 ;           
+}
+
 
 
 
